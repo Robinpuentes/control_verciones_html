@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(134, 133, 133);
+    text-align: center;
+    border: 2px solid black;
+}
+.container{
+    background-color: aliceblue;
+    border: 2px solid #7c7777;
+    width: 95%;
+    margin: auto;
+} 
+
+
+#header{
+    background-color: whitesmoke;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#nav{
+    width: 98%;
+    height: 100px;
+    background-color: rgba(119, 39, 39, 0);
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.section2{
+    
+    justify-content: start;
+    width: 25%;
+    height: 800px;
+    background-color: white;
+    flex-direction: column;
+    margin-left: 11px;
+    border: 2px solid black;
+    /*float: left;*/
+}
+
+.aside{
+    justify-content: start; 
+    width: 90%; 
+    height: 380px;  
+    background-color: rgb(226, 190, 190);
+    margin: 10px;
+    margin: left 120px; ;
+    border: 2px solid black;
+}
+.section3{
+    justify-content: start; 
+    width: 75%; 
+    height: 250px;  
+    background-color: rgb(206, 169, 169);
+    margin:30px;
+    margin: left 120px; ;
+    border: 2px solid black;
+}
+
+.section4{
+    justify-content: start; 
+    width: 72%; 
+    height: 805px;  
+    background-color: white;
+    border: 2px solid black; 
+    margin-left: 15px; ;
+    /*float: right;*/
+}
+
+main{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header1{
+    width: 95%;
+    height: 85px;
+    background-color: rgb(202, 155, 155);
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center;    
+}   
+.article{
+    width: 95%;
+    height: 270px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+    /*align-content: center; */   
+}
+.header2{
+    width: 95%;
+    height: 70px;
+    background-color: rgb(214, 169, 169);
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center;
+}
+
+.contendor2{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    margin: 1% 0;
+    
+}
+
+.div1{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    margin: 1% auto;
+    background-color: rgb(214, 169, 169);
+}
+
+.aside1{
+    border: 1px solid black;
+    height: 100%;
+    width: 40%;
+    margin: 1% auto;
+    background-color: rgb(214, 169, 169);
+}
+.section5{
+    width: 95%;
+    height: 70px;
+    background-color: rgb(214, 169, 169);
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center;
+}
+
+.article6{
+    width: 95%;
+    height: 270px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.header7{
+    width: 95%;
+    height: 70px;
+    background-color: rgb(214, 169, 169);
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center; 
+}
+
+.header8{
+    width: 95%;
+    height: 50px;
+    background-color: rgb(214, 169, 169);
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center; 
+}
+.header9{
+    width: 95%;
+    height: 70px;
+    background-color: rgb(202, 158, 158);
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center; 
+}
+
+.header10{
+    width: 95%;
+    height: 70px;
+    background-color: rgb(206, 149, 149);
+    margin: auto;
+    margin-top: 40px;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center; 
+}
+.footer11{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(206, 149, 149);
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    align-content: center; 
+    margin-bottom: 20px;
+}
